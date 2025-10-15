@@ -14,10 +14,10 @@ int main() {
 	scanf("%s", nombre);
 	
 	printf("Ingresar horas trabajadas: ");
-	scanf("%f", &horas);
+	scanf(" %f", &horas);
 	
 	printf("Ingresar valor por hora: ");
-	scanf("%f", &valorHora);
+	scanf(" %f", &valorHora);
 	
 	sueldoBruto = horas * valorHora;
 	
@@ -35,3 +35,4 @@ int main() {
 	
 	return 0;
 }
+
