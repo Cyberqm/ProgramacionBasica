@@ -6,11 +6,9 @@ int main() {
 	
 	float apuesta;
 	int moneda;
-	char continuar = 'y';
+	char continuar;
 	
 	srand(time(NULL));
-	
-	printf("=== Doble o Nada ===\n");
 	
 	do {
 		
@@ -42,4 +40,5 @@ int main() {
 	
 	return 0;
 	
+
 }
