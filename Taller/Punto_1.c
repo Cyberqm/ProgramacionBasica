@@ -7,7 +7,7 @@ int main() {
 	float lado, base, altura, radio;
 	float area, perimetro;
 	char continuar;
-	const float PI = 3.14159265f;
+	const float PI = 3.1415;
 	
 	do{
 		printf("\n=== Calculo de Area y Perimetro ===\n");
@@ -84,8 +84,8 @@ int main() {
 			}
 			
 			printf("\nResultados\n");
-			printf("\n Area: %.2f\n", area);
-			printf("\ Perimetro: %.2f\n", perimetro);
+			printf("\nArea: %.2f\n", area);
+			printf("\nPerimetro: %.2f\n", perimetro);
 			
 			
 			
@@ -93,8 +93,6 @@ int main() {
 			scanf(" %c", &continuar);
 		
 	} while (continuar == 'y' || continuar == 'Y');
-	
-	printf("\nPrograma finalizado.\n");
 	
 	return 0;
 }
