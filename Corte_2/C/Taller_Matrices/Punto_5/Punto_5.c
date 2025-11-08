@@ -14,7 +14,7 @@ int main() {
 		
 		for (j = 0; j < 4; j++) {
 			
-			printf("Elemento: [%d][%d]: ", i, j);
+			printf("Elemento [%d][%d]: ", i, j);
 			scanf("%d", &matriz[i][j]);
 		}
 	}
@@ -60,4 +60,5 @@ int main() {
 	
 	return 0;
 	
+
 }
